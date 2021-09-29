@@ -1,0 +1,38 @@
+.body{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-top:10px;
+    align-items: center;
+}
+.details{
+    display: flex;
+    padding:10px;
+    
+    align-items: center;
+}
+img{
+    height: 200px;
+    width:200px;
+    border-radius: 20px;
+}
+.ele1, .ele2, .ele3{
+    
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-right: 1px gray solid;
+    height: 10vh;
+}
+li{
+    list-style-type:none;
+}
+.ele1,.ele2{
+    flex:1.5;
+}

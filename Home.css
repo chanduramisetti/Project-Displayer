@@ -1,0 +1,28 @@
+body{
+    align-items: center;
+    color: white;
+}
+.info{
+    float: bottom;
+}
+.Home1{
+    
+   border: white 2px solid;
+   border-radius: 20px;
+    width: 30%;
+    
+}
+
+.Home-title{
+    color: white;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+   font-weight: 22px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

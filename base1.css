@@ -1,0 +1,56 @@
+body{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.title{
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
+#content1{
+    display: flex;
+    
+    
+}
+.para{
+    word-spacing: 2px;
+    letter-spacing: .5px;
+}
+.details,.techs,.pics{
+    flex:1;
+    padding: 10px;
+    margin:10px;
+    border : 2px solid rgb(255, 211, 218);
+    border-radius: 20px;
+    height: auto;
+    
+}
+video{
+    width:35vh;
+    margin: 35px 45px ;
+    border-radius: 30px;
+    }
+    .video{
+        justify-content: center;
+        align-items: center;
+    }
+    
+.pics a{
+    text-decoration: none;
+border: 2px solid pink;
+width : auto;
+padding: 2px;;
+    padding : 5px;
+    color:white;
+}
+/*pics*/
+.p2img{
+    margin-left: 40px;
+}
+img{
+    margin:10px;
+    height: 20vh;
+    width:20vh;
+    border-radius: 10px;
+}

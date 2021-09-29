@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    display: flex;
+    background: gray;
+}
+.nav-links{
+margin-top: 250px;
+justify-content: space-around;
+}
+.nav-links li{
+list-style: none;
+}
